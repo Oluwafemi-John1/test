@@ -25,7 +25,7 @@ const Connection = () => {
             // console.log(name);
             let obj = { item }
             axios.post(url, obj)
-            .then(()=>console.log('sent'))
+            .then((msg)=>console.log(msg.data))
             .catch(err=>console.log(err))
         }
         

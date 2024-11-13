@@ -65,6 +65,7 @@ app.post('/submit', (req, res)=>{
     console.log(req.body);
     const form = new userModel(req.body)
     form.save()
+    res.status(200).json({message: 'Submitted'})
 })
 
 app.listen(PORT, () => {
