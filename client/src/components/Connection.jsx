@@ -5,7 +5,7 @@ const Connection = () => {
     // const [info, setinfo] = useState([])
     const [item, setitem] = useState('')
     // const endpoint = 'http://localhost:5000/home'
-    const url = 'http://localhost:5000/submit'
+    const url = 'https://test-ih74.vercel.app/submit'
     // const fetchInfo = () => {
     //     axios.get(endpoint)
     //     .then((result)=>{
